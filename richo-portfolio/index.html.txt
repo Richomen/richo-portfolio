@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Richo Design — Portfolio</title>
+  <meta name="description" content="Portfolio de Ricardo Ceruzzi Gaerste — Identidad visual, editorial, packaging y fotografía.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 py-4">
+      <nav class="flex items-center justify-between">
+        <div class="text-xl font-bold flex items-center gap-3">
+          <img src="assets/img/logo-design.png" alt="Richo Design Logo" class="w-8 h-8 object-contain" onerror="this.style.display='none'">
+          Richo Design
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a href="#sobre-mi" class="text-sm text-gray-600 hover:text-gray-900">Sobre Mí</a>
+          <a href="#proyectos" class="text-sm text-gray-600 hover:text-gray-900">Proyectos</a>
+          <a href="#servicios" class="text-sm text-gray-600 hover:text-gray-900">Servicios</a>
+          <a href="#habilidades" class="text-sm text-gray-600 hover:text-gray-900">Habilidades</a>
+          <a href="#contacto" class="text-sm text-gray-600 hover:text-gray-900">Contacto</a>
+          <a href="#clientes" class="text-sm text-gray-600 hover:text-gray-900">Clientes</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="relative py-20 overflow-hidden min-h-[700px] bg-gray-100">
+    <div class="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-bl from-blue-950 via-blue-900 to-blue-800"
+         style="clip-path: ellipse(80% 100% at 100% 0%);"></div>
+
+    <div class="max-w-7xl mx-auto px-4 relative z-10">
+      <div class="grid md:grid-cols-2 gap-12 items-center min-h-[520px]">
+        <div class="space-y-8">
+          <div class="bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-xl max-w-2xl">
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+              El diseño no ha muerto, <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">solo ha mutado</span>
+            </h1>
+            <p class="text-lg text-gray-600 leading-relaxed">
+              Soy Ricardo Ceruzzi Gaerste, Diseñador Gráfico enfocado en identidades visuales que comunican y conectan.
+            </p>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-4 pl-8">
+            <a href="#proyectos"
+               class="inline-flex items-center justify-center bg-gray-900 hover:bg-gray-800 text-white rounded-full px-8 py-4 shadow-lg text-sm font-medium">
+              Ver Proyectos
+              <svg class="w-5 h-5 ml-2" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#contacto"
+               class="inline-flex items-center justify-center border-2 border-gray-300 hover:border-gray-900 text-gray-900 rounded-full px-8 py-4 bg-white/80 text-sm font-medium">
+              Contactar
+            </a>
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <div class="w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden bg-gradient-to-br from-blue-100 to-purple-100 shadow-2xl border-4 border-white">
+            <img src="assets/img/profile-photo.png" alt="Foto de perfil" class="w-full h-full object-cover">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre mí -->
+  <section id="sobre-mi" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-14">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">Sobre Mí</h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full"></div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
+          <h3 class="text-2xl font-bold mb-4">Mi Historia</h3>
+          <p class="text-gray-700 leading-relaxed mb-3">
+            Más de 25 años creando identidades visuales, diseño editorial y packaging con enfoque funcional.
+          </p>
+          <p class="text-gray-700 leading-relaxed">
+            Trabajo mano a mano con clientes para transformar ideas en experiencias visuales memorables.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
+          <h3 class="text-2xl font-bold mb-6">Experiencia Profesional</h3>
+          <ul class="space-y-5 text-sm text-gray-700 leading-relaxed">
+            <li><b>Secretario de Comunicación</b> — FSC de CCOO de Toledo: estrategia digital, producción gráfica y coordinación de imagen institucional.</li>
+            <li><b>Freelance Designer</b> — +50 proyectos de branding, packaging y editorial (2020–2022).</li>
+            <li><b>Dpto. de Publicidad, HLT S.A.</b> — campañas mensuales, packaging/etiquetas, catálogos, foto/retouch y marketing online (SEO/SEM/email).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="py-20 relative">
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800"></div>
+    <div class="max-w-7xl mx-auto px-4 relative z-10">
+      <div class="text-center mb-14">
+        <div class="bg-white/90 rounded-3xl p-8 mx-auto max-w-2xl">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4">Proyectos Destacados</h2>
+          <div class="w-24 h-1 bg-gradient-to-r from-yellow-400 to-orange-400 mx-auto rounded-full"></div>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="group">
+          <div class="bg-white/95 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2 overflow-hidden">
+            <div class="relative">
+              <img src="assets/img/concentracion-extrangeria-cartel.jpeg" alt="Cartel Concentración Nacional"
+                   class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold">Cartel Concentración Nacional</h3>
+              <p class="text-gray-600 mt-1">Cartel para concentración nacional por los derechos de trabajadores de extranjería.</p>
+            </div>
+            <div class="p-6 pt-0">
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="bg-gray-100 text-gray-700 rounded-full px-3 py-1 text-xs font-medium">CorelDRAW</span>
+                <span class="bg-gray-100 text-gray-700 rounded-full px-3 py-1 text-xs font-medium">Photoshop</span>
+              </div>
+              <div class="flex gap-3">
+                <a href="assets/img/concentracion-extrangeria-cartel.jpeg" target="_blank"
+                   class="flex-1 text-center bg-gray-900 hover:bg-gray-800 text-white rounded-full px-4 py-2 text-sm font-medium">Ver Demo</a>
+                <a href="#" class="border border-gray-300 rounded-full px-3 py-2 text-sm bg-white">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="group translate-y-6">
+          <div class="bg-white/95 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2 overflow-hidden">
+            <div class="w-full h-48 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+              <span class="text-gray-500 font-medium">Identidad Visual Corporativa</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold">Identidad Visual Corporativa</h3>
+              <p class="text-gray-600 mt-1">Branding completo para empresa tecnológica.</p>
+            </div>
+            <div class="p-6 pt-0">
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="bg-gray-100 text-gray-700 rounded-full px-3 py-1 text-xs font-medium">Illustrator</span>
+                <span class="bg-gray-100 text-gray-700 rounded-full px-3 py-1 text-xs font-medium">Photoshop</span>
+                <span class="bg-gray-100 text-gray-700 rounded-full px-3 py-1 text-xs font-medium">InDesign</span>
+                <span class="bg-gray-100 text-gray-700 rounded-full px-3 py-1 text-xs font-medium">Figma</span>
+              </div>
+              <div class="flex gap-3">
+                <span class="flex-1 text-center rounded-full px-4 py-2 text-sm bg-gray-200 text-gray-500">Sin Demo</span>
+                <a href="#" class="border border-gray-300 rounded-full px-3 py-2 text-sm bg-white">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="group">
+          <div class="bg-white/95 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2 overflow-hidden">
+            <div class="w-full h-48 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+              <span class="text-gray-500 font-medium">Campaña Publicitaria</span>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-semibold">Campaña Publicitaria</h3>
+              <p class="text-gray-600 mt-1">Campaña visual para lanzamiento de producto.</p>
+            </div>
+            <div class="p-6 pt-0">
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="bg-gray-100 text-gray-700 rounded-full px-3 py-1 text-xs font-medium">After Effects</span>
+                <span class="bg-gray-100 text-gray-700 rounded-full px-3 py-1 text-xs font-medium">Illustrator</span>
+                <span class="bg-gray-100 text-gray-700 rounded-full px-3 py-1 text-xs font-medium">Photoshop</span>
+              </div>
+              <div class="flex gap-3">
+                <span class="flex-1 text-center rounded-full px-4 py-2 text-sm bg-gray-200 text-gray-500">Sin Demo</span>
+                <a href="#" class="border border-gray-300 rounded-full px-3 py-2 text-sm bg-white">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Clientes -->
+  <section id="clientes" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-14">
+        <div class="bg-white/90 rounded-3xl p-8 mx-auto max-w-2xl shadow-xl">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4">Clientes</h2>
+          <div class="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto rounded-full"></div>
+          <p class="text-gray-600 mt-6">Marcas que confiaron en mi diseño y fotografía.</p>
+        </div>
+      </div>
+
+      <div class="bg-white/95 rounded-3xl p-8 shadow-xl">
+        <div class="grid md:grid-cols-2 gap-8">
+          <img src="assets/img/colaboradores.jpg" alt="Colaboradores" class="w-full h-auto object-contain">
+          <img src="assets/img/colaboradores-1.jpg" alt="Colaboradores 2" class="w-full h-auto object-contain">
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-4 gap-6 mt-16">
+        <div class="text-center bg-white/60 rounded-2xl p-6 shadow-lg">
+          <div class="text-3xl font-bold text-blue-600 mb-2">+50</div>
+          <div class="text-sm text-gray-700 font-medium">Logotipos devueltos a la vida</div>
+        </div>
+        <div class="text-center bg-white/60 rounded-2xl p-6 shadow-lg">
+          <div class="text-3xl font-bold text-blue-600 mb-2">25+</div>
+          <div class="text-sm text-gray-700 font-medium">Clientes Satisfechos</div>
+        </div>
+        <div class="text-center bg-white/60 rounded-2xl p-6 shadow-lg">
+          <div class="text-3xl font-bold text-blue-600 mb-2">25+</div>
+          <div class="text-sm text-gray-700 font-medium">Años de Experiencia</div>
+        </div>
+        <div class="text-center bg-white/60 rounded-2xl p-6 shadow-lg">
+          <div class="text-3xl font-bold text-blue-600 mb-2">100%</div>
+          <div class="text-sm text-gray-700 font-medium">Proyectos a Tiempo</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-14">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">Servicios</h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-green-400 to-teal-500 mx-auto rounded-full"></div>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Servicio 1 -->
+        <div class="bg-white/95 rounded-3xl shadow-xl p-8">
+          <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl flex items-center justify-center mx-auto mb-6 text-3xl">📷</div>
+          <h3 class="text-2xl font-bold mb-3 text-center">Identidad Visual</h3>
+          <p class="text-gray-600 text-center mb-6">Logo, paleta de colores, tipografías y manual de marca.</p>
+          <div class="bg-gray-50 rounded-2xl p-4">
+            <h4 class="font-semibold mb-3 text-sm uppercase tracking-wide">Incluye:</h4>
+            <ul class="space-y-2 text-sm text-gray-700">
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></span>Diseño de logotipo</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></span>Paleta de colores</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></span>Tipografías corporativas</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></span>Manual de marca</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div class="bg-white/95 rounded-3xl shadow-xl p-8">
+          <div class="w-20 h-20 bg-gradient-to-br from-green-500 to-teal-500 rounded-2xl flex items-center justify-center mx-auto mb-6 text-3xl">📚</div>
+          <h3 class="text-2xl font-bold mb-3 text-center">Diseño Editorial</h3>
+          <p class="text-gray-600 text-center mb-6">Materiales impresos y digitales de alto impacto.</p>
+          <div class="bg-gray-50 rounded-2xl p-4">
+            <h4 class="font-semibold mb-3 text-sm uppercase tracking-wide">Incluye:</h4>
+            <ul class="space-y-2 text-sm text-gray-700">
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></span>Catálogos y brochures</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></span>Revistas y libros</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></span>Flyers y pósters</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></span>Presentaciones</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Servicio 3 -->
+        <div class="bg-white/95 rounded-3xl shadow-xl p-8">
+          <div class="w-20 h-20 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center mx-auto mb-6 text-3xl">📦</div>
+          <h3 class="text-2xl font-bold mb-3 text-center">Packaging</h3>
+          <p class="text-gray-600 text-center mb-6">Empaques que destacan en el punto de venta.</p>
+          <div class="bg-gray-50 rounded-2xl p-4">
+            <h4 class="font-semibold mb-3 text-sm uppercase tracking-wide">Incluye:</h4>
+            <ul class="space-y-2 text-sm text-gray-700">
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></span>Diseño de cajas</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></span>Etiquetas y stickers</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></span>Bolsas personalizadas</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3"></span>Mockups 3D</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades" class="py-20 bg-blue-950 text-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-14">
+        <div class="bg-white/90 rounded-3xl p-8 mx-auto max-w-2xl shadow-xl">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Habilidades Técnicas</h2>
+          <div class="w-24 h-1 bg-gradient-to-r from-pink-400 to-purple-400 mx-auto rounded-full"></div>
+        </div>
+      </div>
+
+      <div class="max-w-4xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-10 mb-16">
+          <!-- Columna 1 -->
+          <div class="bg-white/10 rounded-3xl p-8">
+            <h3 class="text-2xl font-bold mb-6">Diseño Visual</h3>
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between mb-2"><span class="text-gray-300">Adobe Illustrator</span><span class="font-bold">95%</span></div>
+                <div class="w-full bg-gray-700 rounded-full h-2"><div class="bg-gradient-to-r from-blue-400 to-purple-400 h-2 rounded-full" style="width:95%"></div></div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2"><span class="text-gray-300">Adobe Photoshop</span><span class="font-bold">90%</span></div>
+                <div class="w-full bg-gray-700 rounded-full h-2"><div class="bg-gradient-to-r from-blue-400 to-purple-400 h-2 rounded-full" style="width:90%"></div></div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2"><span class="text-gray-300">Adobe InDesign</span><span class="font-bold">85%</span></div>
+                <div class="w-full bg-gray-700 rounded-full h-2"><div class="bg-gradient-to-r from-blue-400 to-purple-400 h-2 rounded-full" style="width:85%"></div></div>
+              </div>
+            </div>
+          </div>
+          <!-- Columna 2 -->
+          <div class="bg-white/10 rounded-3xl p-8">
+            <h3 class="text-2xl font-bold mb-6">Branding</h3>
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between mb-2"><span class="text-gray-300">Identidad Visual</span><span class="font-bold">92%</span></div>
+                <div class="w-full bg-gray-700 rounded-full h-2"><div class="bg-gradient-to-r from-green-400 to-teal-400 h-2 rounded-full" style="width:92%"></div></div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2"><span class="text-gray-300">Packaging</span><span class="font-bold">88%</span></div>
+                <div class="w-full bg-gray-700 rounded-full h-2"><div class="bg-gradient-to-r from-green-400 to-teal-400 h-2 rounded-full" style="width:88%"></div></div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2"><span class="text-gray-300">UI/UX Design</span><span class="font-bold">80%</span></div>
+                <div class="w-full bg-gray-700 rounded-full h-2"><div class="bg-gradient-to-r from-green-400 to-teal-400 h-2 rounded-full" style="width:80%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <h3 class="text-2xl font-bold text-blue-300 mb-6">Tecnologías</h3>
+          <div class="flex flex-wrap justify-center gap-3">
+            <span class="bg-white/90 text-gray-900 px-4 py-2 rounded-full font-medium shadow-lg text-sm">Illustrator</span>
+            <span class="bg-white/90 text-gray-900 px-4 py-2 rounded-full font-medium shadow-lg text-sm">Photoshop</span>
+            <span class="bg-white/90 text-gray-900 px-4 py-2 rounded-full font-medium shadow-lg text-sm">InDesign</span>
+            <span class="bg-white/90 text-gray-900 px-4 py-2 rounded-full font-medium shadow-lg text-sm">After Effects</span>
+            <span class="bg-white/90 text-gray-900 px-4 py-2 rounded-full font-medium shadow-lg text-sm">Figma</span>
+            <span class="bg-white/90 text-gray-900 px-4 py-2 rounded-full font-medium shadow-lg text-sm">CorelDRAW</span>
+            <span class="bg-white/90 text-gray-900 px-4 py-2 rounded-full font-medium shadow-lg text-sm">Blender</span>
+            <span class="bg-white/90 text-gray-900 px-4 py-2 rounded-full font-medium shadow-lg text-sm">Cinema 4D</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-14">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">Contacto</h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto rounded-full"></div>
+      </div>
+
+      <div class="max-w-6xl mx-auto space-y-6">
+        <div class="bg-white/95 rounded-3xl p-8 shadow-xl">
+          <h3 class="text-3xl font-bold mb-4">¡Trabajemos juntos!</h3>
+          <p class="text-gray-700">Abierto a nuevas oportunidades y proyectos. Si tienes una idea, hablemos.</p>
+        </div>
+
+        <div class="bg-white/95 rounded-2xl p-6 shadow-lg">
+          <p class="font-semibold text-lg">Email</p>
+          <p class="text-gray-600 font-medium">ricardo@richodesign.com</p>
+          <p class="text-sm text-gray-500 mt-1">Respondo en menos de 24 horas</p>
+        </div>
+        <div class="bg-white/95 rounded-2xl p-6 shadow-lg">
+          <p class="font-semibold text-lg">Teléfono</p>
+          <p class="text-gray-600 font-medium">+34 000 000 000</p>
+          <p class="text-sm text-gray-500 mt-1">Disponible de 9:00 a 18:00</p>
+        </div>
+        <div class="bg-white/95 rounded-2xl p-6 shadow-lg">
+          <p class="font-semibold text-lg">LinkedIn</p>
+          <p class="text-gray-600 font-medium">linkedin.com/in/ricardo-ceruzzi</p>
+          <p class="text-sm text-gray-500 mt-1">Conectemos</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-white py-12 bg-blue-950">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <p class="opacity-80">© <span id="y"></span> Richo Design. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
